@@ -1,0 +1,39 @@
+div.recipe-card {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  font-family: Fantasy, "Copperplate", "Copperplate Gothic Light", "Copperplate Gothic Bold", "Copperplate Gothic", "Copperplate";
+}
+
+div.description {
+  display: flex;
+}
+
+img {
+  display: inline;
+  max-width: 300px;
+  height: auto;
+  flex: 1;
+  min-width: 0;
+}
+
+div.description-text {
+  padding-left: 20px;
+  flex: 1;
+}
+
+h2 {
+  font-family: Fantasy, "Copperplate", "Copperplate Gothic Light", "Copperplate Gothic Bold", "Copperplate Gothic", "Copperplate";
+}
+
+li, p {
+  font-family: Georgia, serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
